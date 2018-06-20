@@ -1,0 +1,104 @@
+html, body
+{
+  height: 100%; width: 100%;
+  overflow: hidden;
+  margin: 0; padding: 0;
+  background-image: url("../img/items/room.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.logs
+{
+    background: rgba(0, 0, 0, 0.9);
+    height: 8vh; width: 30vw;
+    margin-top: 10px;
+    padding-top: 20px;
+    overflow-x: hidden;
+    text-align: center;
+    /*display: none;*/
+    position: absolute;
+    left: -100%;
+}
+
+.logs p 
+{ 
+  color: white;
+  margin: 0; padding: 0;
+}
+
+.barre_xp 
+{
+    position: absolute;
+    top: 1vh; right: 3vw;
+    height: 5vh; width: 33vw;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.barre_xp .avancement { height: 100%; width: 0%; background: purple; }
+
+.barre_xp .text { position: absolute; margin-top: 5px; }
+
+.tresor 
+{
+  display: inline-block;
+  margin: 12% 0 0 10px;
+  cursor: pointer;
+}
+
+.tresor .icon { width: 80px; }
+
+.inventory
+{
+  position: absolute;
+  bottom: 5px; left: 10px;
+  height: 100px; width: 100px;
+}
+
+.inventory .icon
+{
+  height: 80px; height: 80px;
+  cursor: pointer;
+}
+
+.display
+{
+    position: absolute;
+    top: 15vh; left: 22vw;
+    background: rgba(0, 0, 0, 0.9);
+    height: 500px; width: 500px;
+    display: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.display .item
+{
+    display: inline-block;
+    color: white;
+    height: 150px; width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.display .item:hover { border: 1px solid white; }
+
+.display .item .item-icon
+{
+  height: 110px; width: 110px;
+}
+
+.spoon
+{
+  position: absolute;
+  bottom: 5px; right: 10px;
+}
+
+.spoon > img
+{
+  height: 80px; width: 80px;
+  cursor: pointer;
+}

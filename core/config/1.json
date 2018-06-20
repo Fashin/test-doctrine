@@ -1,0 +1,26 @@
+{
+	"Puree de rat": {
+		"id": "A",
+		"ingredients": [1, 2],
+		"xp": 0.9,
+		"picture": "plat_queue_de_rat.webp"
+	},
+	"Ce prononce Pierre": {
+		"id": "B",
+		"ingredients": [3, 4, 3, 4],
+		"xp": 1.8,
+		"picture": "maisceprononcepierre.webp"
+	},
+	"Canne a peche": {
+		"id": "C",
+		"ingredients": [6, 5, 6, 5, 6],
+		"xp": 0.5,
+		"picture": "canne_a_peche.png"
+	},
+	"Costipare": {
+		"id": "D",
+		"ingredients": [8, 7, 8],
+		"xp": 1.9,
+		"picture": "potion_rappel.png"
+	}
+}

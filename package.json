@@ -1,0 +1,11 @@
+{
+  "name": "test-doctrine",
+  "version": "0.0.1",
+  "description": "This is a test for doctrine",
+  "main": "server.js",
+  "scripts": {
+  	"start": "nodemon server.js"
+  },
+  "author": "cbeauvoi",
+  "license": "ISC"
+}
