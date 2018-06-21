@@ -4,8 +4,16 @@
   "description": "This is a test for doctrine",
   "main": "server.js",
   "scripts": {
-  	"start": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "author": "cbeauvoi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5",
+    "npm": "^6.1.0",
+    "path": "^0.12.7",
+    "socket.io": "^2.1.1"
+  }
 }
